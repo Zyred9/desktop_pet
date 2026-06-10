@@ -1,0 +1,20 @@
+{
+  "name": "desktop-cat",
+  "version": "0.1.0",
+  "description": "桌面宠物:透明悬浮窗轮播绿幕宠物视频",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test",
+    "make-icon": "node scripts/make-icon.js",
+    "postinstall": "node scripts/make-icon.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^33.0.0"
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0"
+  }
+}
