@@ -1,4 +1,4 @@
-# Desktop Cat — 代码审查报告
+# Desktop Pet — 代码审查报告
 
 审查范围：`src/main.js`、`src/preload.js`、`src/config.js`、`src/video-scanner.js`、`src/converter.js`、`src/renderer/renderer.js`、`src/renderer/index.html`、`src/renderer/style.css`、`package.json`。
 

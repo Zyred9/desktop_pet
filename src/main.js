@@ -136,7 +136,7 @@ function buildMenu() {
 function createTray() {
   const iconPath = path.join(app.getAppPath(), 'assets', 'tray-icon.png');
   tray = new Tray(iconPath);
-  tray.setToolTip('桌面宠物 Desktop Cat');
+  tray.setToolTip('桌面宠物 Desktop Pet');
   tray.on('click', () => toggleVisible());
   buildMenu();
 }
